@@ -1,0 +1,74 @@
+/* Import Font */
+@import url('https://fonts.googleapis.com/css2?family=Comic+Neue:wght@300;400;700&display=swap');
+
+/* CSS Reset */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --darkBlue: #1C658C;
+  --lightBlue: #398AB9;
+  --cream: #D8D2CB;
+  --white: #eeeeee;
+}
+
+body {
+  background-color: var(--white);
+  font-family: 'Comic Neue';
+}
+
+.container {
+  width: 50%;
+  margin: 0 auto;
+  padding: 12vh 0;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+img {
+  width: 50%;
+}
+
+h2 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+p {
+  font-size: 20px;
+  font-weight: 400;
+  margin-top: 4px;
+}
+
+button {
+  margin-top: 24px;
+  width: 192px;
+  height: 48px;
+  font-size: 16px;
+  font-weight: 400;
+  color: var(--white);
+  background-color: #000;
+  cursor: pointer;
+}
+
+button:hover {
+  opacity: 80%;
+  transition: 0.5s;
+}
+
+.meme-wrapper {
+  margin-top: 40px;
+  width: 80%;
+  text-align: center;
+  color: red;
+}
+
+.meme-wrapper p {
+  font-size: 24px;
+  font-weight: 400;
+}
