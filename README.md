@@ -5,7 +5,7 @@ This project for generated random joke
 
 ## Documentation
 
-[Demo](https://github.com/setyawannnIMG/testimage/blob/main/laptop-chuck.png?raw=true)
+![Demo](https://github.com/setyawannnIMG/testimage/blob/main/laptop-chuck.png?raw=true)
 
 
 ## Author
